@@ -164,7 +164,7 @@ export const experiences = [
 
   {
     id: 1,
-    img: "https://yt3.googleusercontent.com/ytc/AIdro_mQ7NzO35IhxR7sMtTjJAWPtT8yhXY620oXncXc7Prmst4=s900-c-k-c0x00ffffff-no-rj",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqBb6e7lW-_LaPlWsePX79WhE-33Gt0pUsQ&s",
     role: "DSA Java Mentor Intern",
     company: "Coding Blocks",
     date: "July 2024 - Till Now",
