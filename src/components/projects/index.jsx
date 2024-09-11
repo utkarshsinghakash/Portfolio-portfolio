@@ -103,6 +103,9 @@ export default function projects() {
   function alltoggle() {
     Settoggle("all");
   }
+  function merntoggle() {
+    Settoggle("mern");
+  }
 
   function reacttoggle() {
     Settoggle("react");
@@ -132,6 +135,14 @@ export default function projects() {
           ) : (
             <ToggleButton onClick={alltoggle}>All</ToggleButton>
           )}
+          <Divider />
+          {toggle === "mern" ? (
+            <ToggleButton active onClick={merntoggle}>
+              Mern
+            </ToggleButton>
+          ) : (
+            <ToggleButton onClick={merntoggle}>React</ToggleButton>
+          )}
 
           <Divider />
           {toggle === "react" ? (
@@ -149,14 +160,14 @@ export default function projects() {
           ) : (
             <ToggleButton onClick={Jstoggle}>JavaScript</ToggleButton>
           )}
-          <Divider></Divider>
+          {/* <Divider></Divider>
           {toggle === "css" ? (
             <ToggleButton active onClick={csstoggle}>
               CSS
             </ToggleButton>
           ) : (
             <ToggleButton onClick={csstoggle}>CSS</ToggleButton>
-          )}
+          )} */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

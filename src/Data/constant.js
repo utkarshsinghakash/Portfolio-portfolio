@@ -6,6 +6,7 @@ import Bankistinfo from "../images/Bankist-Info.png";
 import BankistWebsite from "../images/BankistWebsite.png";
 import Quickgame from "../images/Quickgame.png";
 import spotifyclone from "../images/spotifyclone.png";
+import stayeasy from "../images/stayeasy.png";
 
 export const Bio = {
   name: "Utkarsh Singh",
@@ -214,16 +215,28 @@ export const educations = [
 
 export const allprojects = [
   {
+    id: 100,
+    title: "StayEasy",
+    date: "Aug 2024 - Oct 2024",
+    description:
+      "StayEasy is a web application designed using the  MongoDB, Express, Node.js and EJS stack, replicating key functionalities of the popular property rental platform. The app provides an intuitive user experience for both property owners and travelers, offering features such as secure payments, property listings,  booking management, and creating reviews",
+    image: stayeasy,
+    tags: ["NodeJS", "ExpressJS", "MongoDB", "EJS"],
+    category: "mern",
+    github: "https://github.com/utkarshsinghakash/StayEasy",
+    webapp: "https://stayeasy-xbel.onrender.com/listing",
+  },
+  {
     id: 9,
-    title: "WeatherVista",
+    title: "WeatherReport",
     date: "Oct 2023 - Oct 2023",
     description:
       "WeatherVista is your ultimate weather companion, offering real-time weather updates for any location around the globe. Built with the power of React.js, WeatherVista leverages advanced APIs to bring you accurate and up-to-date weather information directly to your device.",
     image: weathervista,
     tags: ["React Js", "Material UI", "API", "CSS"],
     category: "react",
-    github: "https://github.com/utkarshsinghakash/Weather-app",
-    webapp: "https://github.com/utkarshsinghakash/Weather-app",
+    github: "https://github.com/utkarshsinghakash/WeatherReport",
+    webapp: "https://github.com/utkarshsinghakash/WeatherReport",
   },
   {
     id: 0,
