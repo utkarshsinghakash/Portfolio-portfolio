@@ -141,7 +141,7 @@ export default function projects() {
               Mern
             </ToggleButton>
           ) : (
-            <ToggleButton onClick={merntoggle}>React</ToggleButton>
+            <ToggleButton onClick={merntoggle}>Mern</ToggleButton>
           )}
 
           <Divider />
@@ -160,14 +160,6 @@ export default function projects() {
           ) : (
             <ToggleButton onClick={Jstoggle}>JavaScript</ToggleButton>
           )}
-          {/* <Divider></Divider>
-          {toggle === "css" ? (
-            <ToggleButton active onClick={csstoggle}>
-              CSS
-            </ToggleButton>
-          ) : (
-            <ToggleButton onClick={csstoggle}>CSS</ToggleButton>
-          )} */}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
