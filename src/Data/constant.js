@@ -167,7 +167,7 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqBb6e7lW-_LaPlWsePX79WhE-33Gt0pUsQ&s",
     role: "DSA Java Mentor Intern",
     company: "Coding Blocks",
-    date: "July 2024 - Till Now",
+    date: "July 2024 - Aug 2024",
     desc: "Provided one-on-one and group mentorship to students learning DSA with Java. Assist in creating educational content, including tutorials, problem sets, and solutions. Review and provide feedback on student submissions to ensure understanding and improvement. Address student queries and doubts one on one and also through various communication channels (chat, email, video calls). Help,organize and conduct workshops and webinars on DSA topics",
     skills: ["DSA", "Java", "Programming", "Github"],
   },
