@@ -7,6 +7,7 @@ import BankistWebsite from "../images/BankistWebsite.png";
 import Quickgame from "../images/Quickgame.png";
 import spotifyclone from "../images/spotifyclone.png";
 import stayeasy from "../images/stayeasy.png";
+import hirehub from "../images/hirehub.png";
 
 export const Bio = {
   name: "Utkarsh Singh",
@@ -15,7 +16,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/utkarshsinghakash",
   resume:
-    "https://drive.google.com/file/d/1nttvcvyDsKNAxsAh6QLC8ZT8PcFnpOrA/view?usp=sharing",
+    "https://drive.google.com/file/d/1_uSIinl7vDwUV7brgwhvx7h80vx9H-73/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/utkarsh-singh-b9574b262/",
 
   insta: "https://www.instagram.com/itz_utkarshsinghh/?hl=en",
@@ -220,7 +221,7 @@ export const allprojects = [
     date: "Oct 2024 - Oct 2024",
     description:
       "HireHub is a comprehensive platform designed to streamline the hiring process for both job seekers and employers. With a user-friendly interface and a range of powerful features, HireHub connects talented individuals with organizations looking for the perfect fit. The platform is geared towards enhancing the recruitment experience by providing tools for effective job searching, application tracking, and candidate management.",
-    image: stayeasy,
+    image: hirehub,
     tags: ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"],
     category: "mern",
     github: "https://github.com/utkarshsinghakash/HireHub",
