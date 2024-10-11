@@ -261,7 +261,7 @@ export const allprojects = [
     tags: ["React Js", "Material UI"],
     category: "react",
     github: "https://github.com/utkarshsinghakash/CodeCrafter",
-    webapp: "https://codepen-clone9129.netlify.app",
+    webapp: "https://codecrafter9129.netlify.app",
   },
   {
     id: 1,
