@@ -215,6 +215,18 @@ export const educations = [
 
 export const allprojects = [
   {
+    id: 200,
+    title: "HireHub",
+    date: "Oct 2024 - Oct 2024",
+    description:
+      "HireHub is a comprehensive platform designed to streamline the hiring process for both job seekers and employers. With a user-friendly interface and a range of powerful features, HireHub connects talented individuals with organizations looking for the perfect fit. The platform is geared towards enhancing the recruitment experience by providing tools for effective job searching, application tracking, and candidate management.",
+    image: stayeasy,
+    tags: ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"],
+    category: "mern",
+    github: "https://github.com/utkarshsinghakash/HireHub",
+    webapp: "https://github.com/utkarshsinghakash/HireHub",
+  },
+  {
     id: 100,
     title: "StayEasy",
     date: "Aug 2024 - Oct 2024",
