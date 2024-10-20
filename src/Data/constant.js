@@ -225,7 +225,7 @@ export const allprojects = [
     tags: ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"],
     category: "mern",
     github: "https://github.com/utkarshsinghakash/HireHub",
-    webapp: "https://github.com/utkarshsinghakash/HireHub",
+    webapp: "https://hirehub-ho32.onrender.com/",
   },
   {
     id: 100,
