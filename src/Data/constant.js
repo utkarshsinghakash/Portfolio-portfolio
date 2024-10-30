@@ -8,6 +8,7 @@ import Quickgame from "../images/Quickgame.png";
 import spotifyclone from "../images/spotifyclone.png";
 import stayeasy from "../images/stayeasy.png";
 import hirehub from "../images/hirehub.png";
+import mailverse from "../images/mailverse.png";
 
 export const Bio = {
   name: "Utkarsh Singh",
@@ -16,7 +17,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/utkarshsinghakash",
   resume:
-    "https://drive.google.com/file/d/1Z199vYrtfqRWlW82CD-RypAh1bGzpJZD/view?usp=sharing",
+    "https://drive.google.com/file/d/18Q7zQtcJ2AR_5Fo665rcQEEsV2IAKqrl/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/utkarsh-singh-b9574b262/",
 
   insta: "https://www.instagram.com/itz_utkarshsinghh/?hl=en",
@@ -215,6 +216,18 @@ export const educations = [
 ];
 
 export const allprojects = [
+  {
+    id: 300,
+    title: "MailVerse",
+    date: "Oct 2024 - Oct 2024",
+    description:
+      "MailVerse is a Gmail-inspired mailing system built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It replicates essential email functionalities, providing users with a seamless, intuitive email experience.  Full capabilities to compose, send, delete, and archive emails, A user interface closely modeled after Gmail, offering features like inbox organization, starred emails, drafts, and sent folders",
+    image: mailverse,
+    tags: ["NodeJS", "ExpressJS", "MongoDB", "ReactJS"],
+    category: "mern",
+    github: "https://github.com/utkarshsinghakash/MailVerse",
+    webapp: "https://mailverse-1.onrender.com/",
+  },
   {
     id: 200,
     title: "HireHub",
